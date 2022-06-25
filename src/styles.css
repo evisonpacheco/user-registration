@@ -1,0 +1,116 @@
+.form {
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid transparent;
+  border-radius: 2rem;
+  -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 2rem auto;
+  padding: 1rem 0;
+  width: 80%;
+}
+
+.form-border {
+  border-bottom: 0.5rem double white;
+  border-top: 0.5rem double white;
+  border-radius: 1rem;
+  margin: 0 auto;
+  padding: 1rem 0;
+  width: 90%;
+}
+
+.form__title {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0.2rem auto 2rem;
+  padding: 0 1rem;
+  text-transform: uppercase;
+  width: 70%;
+}
+
+.form__subtitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto 1rem;
+  text-transform: uppercase;
+}
+
+.form .form-field {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 auto 1rem;
+}
+
+.form .form-field__label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: left;
+  width: 40%;
+}
+
+.form .form-field__input {
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  padding-left: 0.5rem;
+  width: 60%;
+}
+
+.form .form-field__input:hover, .form .form-field__input:focus {
+  outline: 1px solid #F2FA5A;
+}
+
+.form .form-field__input::-webkit-outer-spin-button, .form .form-field__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form .form-field__input__input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.form__button {
+  background-color: #4D77FF;
+  border: 1px solid #F2FA5A;
+  border-radius: 0.5rem;
+  color: #F2FA5A;
+  display: block;
+  font-size: 1.2rem;
+  height: 2.5rem;
+  margin: 1rem auto 0;
+  text-align: center;
+  width: 5rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.form__button:hover {
+  border: 1px solid #4D77FF;
+  color: #4D77FF;
+  background-color: #F2FA5A;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 800px) {
+  .form-field__input {
+    font-size: 1.2rem !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .form {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
