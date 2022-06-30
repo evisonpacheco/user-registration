@@ -39,7 +39,7 @@
   }
 
   .form-field {
-    align-items: center;  
+    align-items: center;
     border-radius: 1rem;
     display: flex;
     justify-content: space-around;
@@ -72,7 +72,7 @@
       }
     }
   }
-  
+
   &__button {
     background-color: $color-zero;
     border: 1px solid $color-three;
@@ -100,7 +100,7 @@
     font-size: 1.2rem !important;
   }
 }
-  
+
 @media screen and (min-width: 1200px) {
   .form {
     width: 50%;

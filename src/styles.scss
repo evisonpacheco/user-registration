@@ -1,1 +1,7 @@
-@import './app/app.component.scss'
+@import './app/styles/abstract/reset';
+@import './app/styles/abstract/base';
+@import './app/styles/abstract/variables';
+@import './app/styles/components/form';
+@import './app/styles/components/main';
+@import './app/styles/components/redirect';
+@import './app/styles/components/species';
