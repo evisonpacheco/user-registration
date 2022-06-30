@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { AppRoutingModule } from '../app-routing.module';
 
 @Component({
   selector: 'app-register',
@@ -7,4 +6,16 @@ import { AppRoutingModule } from '../app-routing.module';
   styleUrls: ['../../styles.css']
 })
 
-export class RegisterComponent { }
+export class RegisterComponent {
+
+  validatePassword(){
+    let password = (document.getElementById("password") as HTMLInputElement).value;
+    let passwordConfirm = (document.getElementById("password-confirm") as HTMLInputElement).value;
+
+    console.log(password, passwordConfirm)
+      if (password != passwordConfirm) {
+        alert("Senhas não conferem!");
+      }
+    }
+
+}
