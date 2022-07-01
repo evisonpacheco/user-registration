@@ -1,3 +1,4 @@
+import { LoggedComponent } from './logged/logged.component';
 import { NgModule } from '@angular/core';
 import { RouterModule} from '@angular/router';
 import { Routes } from '@angular/router';
@@ -8,6 +9,7 @@ export const routes: Routes = [
   { path: '', redirectTo: 'login', pathMatch: 'full'},
   { path: 'login', component: LoginComponent},
   { path: 'cadastro', component: RegisterComponent},
+  { path: 'usuario', component: LoggedComponent },
 ];
 
 @NgModule({
