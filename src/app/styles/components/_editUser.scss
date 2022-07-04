@@ -1,0 +1,27 @@
+@import '../abstract/variables';
+@import '../abstract/mixins';
+
+.avatar-flex {
+  margin: 0 auto;
+}
+
+.form__button--delete {
+    background-color: red;
+    border: 1px solid $color-three;
+    border-radius: 0.5rem;
+    color: $color-three;
+    display: block;
+    font-size: 1.2rem;
+    height: 2.5rem;
+    margin: 1rem auto 1rem;
+    text-align: center;
+    width: 10rem;
+    transition: 0.3s;
+
+    &:hover {
+      border: 1px solid $color-zero;
+      color: $color-zero;
+      background-color: $color-three ;
+      cursor: pointer;
+    }
+  }
