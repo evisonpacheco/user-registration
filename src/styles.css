@@ -53,7 +53,7 @@ table {
 }
 
 html {
-  background-image: url("./assets/images/background.jpg");
+  background: #008a8a;
 }
 
 .form {
@@ -248,7 +248,7 @@ html {
   padding: 0 1rem;
 }
 .avatar-flex__image {
-  background-image: url("./assets/images/userplaceholder.png");
+  background: black;
   background-size: cover;
   background-position: center;
   display: inline;
