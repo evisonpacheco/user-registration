@@ -1,4 +1,3 @@
-import { UserInterface } from './../../assets/interfaces/user.interface';
 import { UserService } from '../../assets/services/user/user.service';
 import { Component, OnInit } from '@angular/core';
 
@@ -18,9 +17,5 @@ export class LoggedComponent implements OnInit{
     .then(data => this.user = data)
     .then(() => console.log(this.user))
     .then(error => console.error(error))
-
   }
-
-
-
 }
