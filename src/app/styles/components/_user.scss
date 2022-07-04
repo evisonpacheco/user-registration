@@ -16,6 +16,10 @@
       display: block;
       margin-right: 1rem;;
       width: 3rem;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 
@@ -40,6 +44,10 @@
 
       display: block;
       margin: 0.3rem auto;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 

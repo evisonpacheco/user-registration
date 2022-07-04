@@ -229,6 +229,9 @@ html {
   margin-right: 1rem;
   width: 3rem;
 }
+.user-border__button--exit:hover {
+  cursor: pointer;
+}
 
 .avatar {
   display: flex;
@@ -245,6 +248,9 @@ html {
 .avatar-flex__button {
   display: block;
   margin: 0.3rem auto;
+}
+.avatar-flex__button:hover {
+  cursor: pointer;
 }
 .avatar__paragraph {
   display: block;
