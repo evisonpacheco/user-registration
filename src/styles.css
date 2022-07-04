@@ -43,7 +43,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -65,12 +65,11 @@ table {
           box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 2rem auto;
   padding: 1rem 0;
   width: 80%;
 }
-
 .form-border {
   border-bottom: 0.5rem double white;
   border-top: 0.5rem double white;
@@ -79,7 +78,6 @@ table {
   padding: 1rem 0;
   width: 90%;
 }
-
 .form__title {
   font-size: 2rem;
   text-align: center;
@@ -88,7 +86,6 @@ table {
   text-transform: uppercase;
   width: 70%;
 }
-
 .form__subtitle {
   font-size: 1.2rem;
   font-weight: bold;
@@ -96,7 +93,6 @@ table {
   margin: 0 auto 1rem;
   text-transform: uppercase;
 }
-
 .form .form-field {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -109,34 +105,28 @@ table {
       justify-content: space-around;
   margin: 0 auto 1rem;
 }
-
 .form .form-field__label {
   font-size: 1.2rem;
   font-weight: bold;
   text-align: left;
   width: 40%;
 }
-
 .form .form-field__input {
   border-radius: 0.5rem;
   font-size: 1rem;
   padding-left: 0.5rem;
   width: 60%;
 }
-
 .form .form-field__input:hover, .form .form-field__input:focus {
   outline: 1px solid #F2FA5A;
 }
-
 .form .form-field__input::-webkit-outer-spin-button, .form .form-field__input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-
 .form .form-field__input__input[type=number] {
   -moz-appearance: textfield;
 }
-
 .form__button {
   background-color: #4D77FF;
   border: 1px solid #F2FA5A;
@@ -151,7 +141,6 @@ table {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-
 .form__button:hover {
   border: 1px solid #4D77FF;
   color: #4D77FF;
@@ -164,13 +153,11 @@ table {
     font-size: 1.2rem !important;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .form {
     width: 50%;
   }
 }
-
 main {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -183,7 +170,6 @@ main {
   margin-top: 3rem;
   text-align: center;
 }
-
 .redirect .redirect__link {
   color: blue;
 }
@@ -197,15 +183,92 @@ main {
   margin: 0 auto;
   width: 90%;
 }
-
 .species .species__legend {
   font-size: 1.4rem;
   text-align: center;
   padding: 0 1rem 0.5rem;
   width: 90%;
 }
-
 .species .species__label {
   font-size: 1.1rem;
 }
-/*# sourceMappingURL=styles.css.map */
+
+.user {
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid transparent;
+  border-radius: 2rem;
+  -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 2rem auto;
+  padding: 1rem 0;
+  width: 80%;
+}
+.user-border {
+  border-bottom: 0.5rem double white;
+  border-top: 0.5rem double white;
+  border-radius: 1rem;
+  margin: 0 auto;
+  padding: 1rem 0;
+  width: 90%;
+}
+.user__title {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0.2rem auto 2rem;
+  padding: 0 1rem;
+  text-transform: uppercase;
+  width: 70%;
+}
+.user__subtitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto 1rem;
+  text-transform: uppercase;
+}
+.user-border {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.user-border__button {
+  display: block;
+}
+
+.avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 1rem;
+}
+.avatar-flex__image {
+  background: url("./assets/images/userplaceholder.png");
+  background-size: cover;
+  background-position: center;
+  display: inline;
+  height: 125px;
+  width: 125px;
+}
+.avatar-flex__button {
+  display: block;
+  margin: 0.3rem auto;
+}
+.avatar__paragraph {
+  display: block;
+  margin-left: 1rem;
+}
+
+@media screen and (min-width: 800px) {
+  .avatar-flex__image {
+    height: 250px;
+    width: 250px;
+  }
+}/*# sourceMappingURL=styles.css.map */

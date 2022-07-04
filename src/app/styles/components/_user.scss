@@ -1,0 +1,55 @@
+@import '../abstract/variables';
+
+.user {
+  @include GeneralLayout;
+
+  &-border {
+    align-items: center;
+    display: flex;
+
+    &__button {
+      display: block;
+    }
+  }
+
+}
+
+.avatar {
+  display: flex;
+  padding: 0 1rem;
+
+  &-flex {
+
+    &__image {
+      background: url("./assets/images/userplaceholder.png");
+      background-size: cover;
+      background-position: center;
+      display: inline;
+      height: 125px;
+      width: 125px;
+    }
+
+    &__button {
+
+      display: block;
+      margin: 0.3rem auto;
+    }
+  }
+
+  &__paragraph {
+    display: block;
+    margin-left: 1rem;
+  }
+
+}
+
+@media screen and (min-width: 800px) {
+  .avatar-flex {
+
+    &__image {
+      height: 250px;
+      width: 250px;
+    }
+  }
+}
+
