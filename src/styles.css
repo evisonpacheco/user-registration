@@ -62,10 +62,8 @@ html {
   background-color: rgba(255, 255, 255, 0.1);
   border: 2px solid transparent;
   border-radius: 2rem;
-  -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
-          box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   margin: 2rem auto;
   padding: 1rem 0;
@@ -95,15 +93,10 @@ html {
   text-transform: uppercase;
 }
 .form .form-field {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   border-radius: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   margin: 0 auto 1rem;
 }
 .form .form-field__label {
@@ -143,7 +136,6 @@ html {
   margin: 1rem auto 0;
   text-align: center;
   width: 5rem;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 .form__button:hover {
@@ -173,11 +165,8 @@ html {
 }
 
 .species {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   margin: 0 auto;
   width: 90%;
 }
@@ -197,10 +186,8 @@ html {
   background-color: rgba(255, 255, 255, 0.1);
   border: 2px solid transparent;
   border-radius: 2rem;
-  -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
-          box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   margin: 2rem auto;
   padding: 1rem 0;
@@ -230,22 +217,22 @@ html {
   text-transform: uppercase;
 }
 .user-border {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-items: stretch;
   display: flex;
 }
-.user-border__button {
+.user-border__button--exit {
+  background-color: red;
+  border: 1px solid;
+  border-radius: 5px;
+  color: #F2FA5A;
   display: block;
+  margin-right: 1rem;
+  width: 3rem;
 }
 
 .avatar {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  padding: 0 1rem;
+  padding: 1rem;
 }
 .avatar-flex__image {
   background: black;
@@ -285,7 +272,6 @@ html {
   margin: 1rem auto 1rem;
   text-align: center;
   width: 10rem;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 .form__button--delete:hover {

@@ -5,11 +5,17 @@
   @include GeneralLayout;
 
   &-border {
-    align-items: center;
+    align-items: stretch;
     display: flex;
 
-    &__button {
+    &__button--exit {
+      background-color: red;
+      border: 1px solid;
+      border-radius: 5px;
+      color: $color-three;
       display: block;
+      margin-right: 1rem;;
+      width: 3rem;
     }
   }
 
@@ -17,7 +23,7 @@
 
 .avatar {
   display: flex;
-  padding: 0 1rem;
+  padding: 1rem;
 
   &-flex {
 
