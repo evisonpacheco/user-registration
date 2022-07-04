@@ -258,7 +258,10 @@ html {
 }
 
 @media screen and (min-width: 800px) {
-  .avatar-flex__image {
+  .avatar {
+    padding: 1rem 5rem;
+  }
+  .avatar .avatar-flex__image {
     height: 250px;
     width: 250px;
   }

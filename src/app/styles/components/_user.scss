@@ -59,6 +59,9 @@
 }
 
 @media screen and (min-width: 800px) {
+  .avatar {
+
+    padding: 1rem 5rem ;
   .avatar-flex {
 
     &__image {
@@ -66,5 +69,6 @@
       width: 250px;
     }
   }
+}
 }
 
