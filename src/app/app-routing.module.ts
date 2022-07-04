@@ -1,3 +1,4 @@
+import { EditComponent } from './edit/edit.component';
 import { LoggedComponent } from './logged/logged.component';
 import { NgModule } from '@angular/core';
 import { RouterModule} from '@angular/router';
@@ -10,6 +11,7 @@ export const routes: Routes = [
   { path: 'login', component: LoginComponent},
   { path: 'cadastro', component: RegisterComponent},
   { path: 'usuario', component: LoggedComponent },
+  { path: 'editar', component: EditComponent }
 ];
 
 @NgModule({

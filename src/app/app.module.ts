@@ -8,13 +8,15 @@ import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { LoggedComponent } from './logged/logged.component';
 import { HttpClientModule } from '@angular/common/http';
+import { EditComponent } from './edit/edit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegisterComponent,
     LoginComponent,
-    LoggedComponent
+    LoggedComponent,
+    EditComponent
   ],
   imports: [
     BrowserModule,
