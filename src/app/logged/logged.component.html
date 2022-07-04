@@ -1,6 +1,17 @@
-<div class="form">
-  <div class="form-border">
-    <h2 class="form__subtitle">Olá, {{ user[0].name }}  !</h2>
+<div class="user">
+  <div class="user-border">
+    <h2 class="user__subtitle">Olá, {{ user[0].name }}  !</h2>
 
+    <button class="user-border__button" routerLink="/login">Sair</button>
   </div>
+
+  <div class="avatar">
+    <div class="avatar-flex">
+      <img class="avatar-flex__image">
+      <button class="avatar-flex__button" routerLink="/edit">Editar Dados</button>
+    </div>
+
+    <p class="avatar__paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis fuga amet quas enim itaque ut, autem voluptate maiores perferendis, hic illo nesciunt quasi adipisci deserunt quam cupiditate, facilis cumque sed.</p>
+  </div>
+
 </div>

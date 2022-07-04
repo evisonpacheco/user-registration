@@ -17,7 +17,7 @@ export class LoggedComponent implements OnInit{
     this.UserService.getUser()
     .then(data => this.user = data)
     .then(() => console.log(this.user))
-    //.then(error => console.error(error))
+    .then(error => console.error(error))
 
   }
 
