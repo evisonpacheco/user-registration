@@ -127,6 +127,10 @@ table {
 .form .form-field__input__input[type=number] {
   -moz-appearance: textfield;
 }
+.form .form-field__separator {
+  color: #4D77FF;
+  font-size: 0.8rem;
+}
 .form__button {
   background-color: #4D77FF;
   border: 1px solid #F2FA5A;

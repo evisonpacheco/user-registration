@@ -37,6 +37,11 @@
         -moz-appearance: textfield;
       }
     }
+
+    &__separator {
+      color: $color-zero;
+      font-size: 0.8rem;
+    }
   }
 
   &__button {
