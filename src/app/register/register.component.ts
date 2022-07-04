@@ -11,7 +11,6 @@ export class RegisterComponent {
 
   constructor(private router: Router) {}
 
-
     validateRegistration(){
       let userName = (document.getElementById("name") as HTMLInputElement).value;
       let email = (document.getElementById("email") as HTMLInputElement).value;
@@ -30,7 +29,7 @@ export class RegisterComponent {
       } else if (password != passwordConfirm) {
         alert("Senhas não conferem!");
       } else {
-        alert("Registro Concluído");
+        alert("Cadastro Concluído");
         this.router.navigate(['/login'])
       }
     }
