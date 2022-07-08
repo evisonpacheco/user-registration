@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ### Português Abaixo
 
 ---
@@ -21,3 +22,7 @@ Aplicação desenvolvida em Angular com consumo de WEB API
   - Desenvolvida em forma de SPA (Single Page Aplication)
   - Aplicado conceito de Mobile First
   - Estilização desenvolvida em Sass
+=======
+Acesse no Vercel por aqui:
+https://registration-alpha.vercel.app
+>>>>>>> Stashed changes
