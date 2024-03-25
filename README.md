@@ -25,4 +25,3 @@ Aplicação desenvolvida em Angular com consumo de WEB API
 =======
 Acesse no Vercel por aqui:
 https://registration-alpha.vercel.app
->>>>>>> Stashed changes
